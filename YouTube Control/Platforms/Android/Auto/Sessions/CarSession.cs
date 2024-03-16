@@ -5,9 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using YouTube_Control.Platforms.Android.Auto.Screens;
+using YouTubeControl.Platforms.Android.Auto.Screens;
+using YouTubeControl.Platforms.Android;
 
-namespace YouTube_Control.Platforms.Android.Auto.Sessions
+namespace YouTubeControl.Platforms.Android.Auto.Sessions
 {
     public class CarSession : Session
     {

@@ -13,7 +13,7 @@
         {
             count++;
 
-            if (count == 1)
+            if (count == 1 )
                 CounterBtn.Text = $"Clicked {count} time";
             else
                 CounterBtn.Text = $"Clicked {count} times";

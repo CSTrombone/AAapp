@@ -6,12 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using YouTube_Control.Platforms.Android.Auto.Sessions;
+using YouTubeControl.Platforms.Android.Auto.Sessions;
 
-namespace YouTube_Control.Platforms.Android.Auto.Services
+namespace YouTubeControl.Platforms.Android.Auto.Services
 {
     [Service(Exported = true)]
-    [IntentFilter(new string[] { "androidX.Car.App.CarAppService" }, Categories = new[] { "androidx.car.app.category.POI" })]
+    [IntentFilter(new string[] { "androidX.car.app.CarAppService" }, Categories = new[] { "androidx.car.app.category.POI" })]
     public class CarService : CarAppService
     {
         public override HostValidator CreateHostValidator()

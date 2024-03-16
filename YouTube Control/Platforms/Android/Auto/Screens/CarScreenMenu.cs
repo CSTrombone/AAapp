@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YouTube_Control.Platforms.Android.Auto.Screens
+namespace YouTubeControl.Platforms.Android.Auto.Screens
 {
     public class CarScreenMenu : Screen
     {
